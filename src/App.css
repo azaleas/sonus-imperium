@@ -1,0 +1,32 @@
+.container--v-centered {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.streamcast-thumbnail {
+    display: block;
+    max-width: 100px;
+    margin: auto;
+}
+
+.playback-rate::before {
+    font-size: 10px;
+}
+
+.description-block {
+    height: 20vh;
+    overflow-y: auto;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.word-break {
+    word-break: break-all;
+    /* non-standard */
+    word-break: break-word;
+}
